@@ -15,13 +15,13 @@
 
 		<!-- Header -->
 			<header id="header" class="alt2">
-				<h1>AzumPoint Logo</h1>
+				<img id="logo" src="./images/logo.png" height="150" width="175" style="margin: 30px; 0px ; 0px; 0px;"/>
 				<nav id="nav">
 					<ul>
-						<li><a href="aboutus.html">Meet the Team</a></li>
-						<li><a href="aboutus.html">Economic Impact Analysis</a></li>
-						<li><a href="aboutus.html">Pricing</a></li>
-						<li><a href="contact.html">Contact</a></li>
+						<li><a id="firstScroll">Meet the Team</a></li>
+						<li><a id="secondScroll">Economic Impact Analysis</a></li>
+						<li><a id="thirdScroll">Pricing</a></li>
+						<li><a id="fourthScroll">Contact</a></li>
 					</ul>
 				</nav>
 			</header>
@@ -118,14 +118,16 @@
 				</br>
 			</section>
 
-			<section>
+
+			<!-- ABOUT US SECTION -->
+			<section id="aboutus">
 				</br>
 				<div class="container 100%">
 					<h2 style="font-size:3.5em;line-height:1.35;margin-bottom:0.5em; text-align:center">About us</h2>
 				</div>
 			</section>
 
-			<section id="banner">
+			<section class="bannerAbout">
 				<div class="container 100%">
 					<div class="row">
 						<div class="4u 12u$(small)">
@@ -202,18 +204,19 @@
 					</div>
 			</section>
 
-			<section id="banner">
+			<section class="bannerAbout">
 			</br>
 			</section>
 
-			<section>
+			<!-- ECONOMIC IMPACT ANALYSIS SECTION -->
+			<section id="economicimpactanalysis">
 				</br>
 				<div class="container 100%">
 					<h2 style="font-size:3.5em;line-height:1.35;margin-bottom:0.5em; text-align:center">So, What is Economic Impact Analysis?</h2>
 				</div>
 			</section>
 
-			<section id="banner">
+			<section class="bannerAbout">
 				<div class="container 100%">
 					<div class="row">
 							<p>Economic impact analysis pulls together dozens of important metrics to measure the effects of a new project on a community or oganization</p>
@@ -227,18 +230,19 @@
 				<p>We will finish this once we decide what we actually want to measure</p>
 			</section>
 
-			<section id="banner">
+			<section class="bannerAbout">
 			</br>
 			</section>
 
-			<section>
+			<!-- PRICING -->
+			<section id="pricing">
 				</br>
 				<div class="container 100%">
 					<h2 style="font-size:3.5em;line-height:1.35;margin-bottom:0.5em; text-align:center">Pricing - We care about your wallet</h2>
 				</div>
 			</section>
 
-			<section id="banner">
+			<section class="bannerAbout">
 				<div class="container 100%">
 					<div class="row">
 							<p>We believe that consulting-level results don't need consulting-level price tags. You want to ensure your projects are successful while still keeping most of the budgets on those projects themselves!</p>
@@ -263,7 +267,8 @@
 				</div>
 			</section>
 
-			<section id="banner" style="padding: 10em 0 5em 0; line-height: 0.75;">
+			<!-- CONTACT FORM -->
+			<section id= "contact" class="bannerAbout" style="padding: 10em 0 5em 0; line-height: 0.75;">
 				<div class="container 100%">
 					<h2>We'd love to hear from you!</h2>
 				</div>
@@ -310,6 +315,18 @@
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
 			<script src="assets/js/homeBanner.js"></script>
+			<script>
+				$("#logo").click(function() {
+    					$('html, body').animate({scrollTop: $("#banner").offset().top}, 2000);});
+				$("#firstScroll").click(function() {
+    					$('html, body').animate({scrollTop: $("#aboutus").offset().top}, 2000);});
+				$("#secondScroll").click(function() {
+    					$('html, body').animate({scrollTop: $("#economicimpactanalysis").offset().top}, 2000);});
+				$("#thirdScroll").click(function() {
+    					$('html, body').animate({scrollTop: $("#pricing").offset().top}, 2000);});
+				$("#fourthScroll").click(function() {
+    					$('html, body').animate({scrollTop: $("#contact").offset().top}, 2000);});
+			</script>
 
 	</body>
 </html>

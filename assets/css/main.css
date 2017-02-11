@@ -3228,6 +3228,99 @@
 			-webkit-transform: translateY(-50%);
 		}
 
+/* Banner About*/
+
+	body.is-touch .bannerAbout {
+		background-attachment: scroll;
+	}
+
+	.bannerAbout {
+		padding: 5em 0 5em 0;
+		background-attachment: fixed;
+		background-image: url("../../assets/css/images/overlay.png"), url("../../images/milkyway.jpg");
+		background-position: center top;
+		background-size: cover;
+		line-height: 1.75;
+		text-align: center;
+	}
+
+		.bannerAbout:last-child {
+			margin-bottom: 0;
+		}
+
+		.bannerAbout h2{
+			color: #ffffff;
+			display: inline-block;
+			font-size: 3.5em;
+			line-height: 1.35;
+			margin-bottom: 0.5em;
+		}
+
+
+		.bannerAbout p {
+			color: #ddd;
+			font-size: 1.5em;
+			margin-bottom: 1.75em;
+			text-transform: uppercase;
+		}
+
+		@media screen and (max-width: 1280px) {
+
+			.bannerAbout {
+				padding: 14em 0 11em 0;
+			}
+
+				.bannerAbout h2 {
+					font-size: 2.5em;
+				}
+
+		}
+
+		@media screen and (max-width: 980px) {
+
+			.bannerAbout {
+				padding: 9em 0 7em 0;
+			}
+
+		}
+
+		@media screen and (max-width: 736px) {
+
+			.bannerAbout {
+				padding: 6em 2em 6em 2em;
+			}
+
+				.bannerAbout br {
+					display: none;
+				}
+
+				.bannerAbout h2 {
+					font-size: 2.25em;
+				}
+
+				.bannerAbout p {
+					font-size: 1.25em;
+				}
+
+		}
+
+		@media screen and (max-width: 480px) {
+
+			.bannerAbout {
+				padding: 4em 2em 4em 2em;
+			}
+
+		}
+
+		.banner_div{
+			position:absolute;
+			vertical-align: center;left: 0;
+			right: 0;
+			top: 50%;
+			transform: translateY(-50%);
+			-webkit-transform: translateY(-50%);
+		}
+
 /* Main */
 
 	#main {
