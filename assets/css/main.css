@@ -1650,7 +1650,7 @@
 
 	a {
 		text-decoration: none;
-		color: #00ccff;
+		color: #ffff66;
 	}
 
 		a:hover {
@@ -1834,10 +1834,10 @@
 		input[type="button"]:hover,
 		button:hover,
 		.button:hover {
-			background-color: #00ccff;
+			background-color: #ffff66;
 		}
 
-		input[type="submit"]:active,
+		input[type="submit"]:active,˙
 		input[type="reset"]:active,
 		input[type="button"]:active,
 		button:active,
@@ -1958,7 +1958,7 @@
 			input[type="button"].special:hover,
 			button.special:hover,
 			.button.special:hover {
-				background-color: #00ccff;
+				background-color: #ffff66;
 				color: #ffffff !important;
 			}
 
@@ -2898,7 +2898,7 @@
 					}
 
 						#header nav ul li a:hover {
-							color: #00ccff;
+							color: #ffff66;
 						}
 
 					#header nav ul li:first-child {
