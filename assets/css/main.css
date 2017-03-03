@@ -1,5 +1,5 @@
 @import url(font-awesome.min.css);
-@import url(https://fonts.googleapis.com/css?family=Raleway:400,700);
+@import url(https://fonts.googleapis.com/css?family=Abel);
 
 /*
 	Spatial by TEMPLATED
@@ -1602,7 +1602,7 @@
 	}
 
 	body, input, select, textarea {
-		font-family: "Raleway", Arial, Helvetica, sans-serif;
+		font-family: "Abel", Arial, Helvetica, sans-serif;
 		font-size: 13pt;
 		font-weight: 400;
 		line-height: 2em;
@@ -2775,7 +2775,7 @@
 
 		.wrapper.style2 {
 			background-attachment: fixed;
-			background-image: url("../../assets/css/images/overlay.png"), url("../../images/milkyway.jpg");
+			background-image: url("../../images/triangle-mountains.jpg");
 			background-position: center center;
 			background-size: cover;
 
@@ -2786,7 +2786,7 @@
 
 		.wrapper.style3 {
 			background-attachment: fixed;
-			background-image: url("../../assets/css/images/overlay.png"), url("../../images/milkyway.jpg");
+			background-image: url("../../images/triangle-mountains.jpg");
 			background-position: center center;
 			background-size: cover;
 		}
@@ -3144,7 +3144,7 @@
 	#banner {
 		padding: 5em 0 5em 0;
 		background-attachment: fixed;
-		background-image: url("../../assets/css/images/overlay.png"), url("../../images/milkyway.jpg");
+		background-image: url("../../images/triangle-mountains.jpg");
 		background-position: center top;
 		background-size: cover;
 		line-height: 1.75;
@@ -3237,7 +3237,7 @@
 	.bannerAbout {
 		padding: 5em 0 5em 0;
 		background-attachment: fixed;
-		background-image: url("../../assets/css/images/overlay.png"), url("../../images/milkyway.jpg");
+		background-image: url("../../images/triangle-mountains.jpg");
 		background-position: center top;
 		background-size: cover;
 		line-height: 1.75;
